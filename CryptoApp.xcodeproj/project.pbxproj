@@ -12,6 +12,8 @@
 		25F1E1522A2960C6005954FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F1E1512A2960C6005954FA /* Assets.xcassets */; };
 		25F1E1552A2960C6005954FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F1E1542A2960C6005954FA /* Preview Assets.xcassets */; };
 		25F1E15D2A296684005954FA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E15C2A296684005954FA /* Color.swift */; };
+		25F1E1632A2967E9005954FA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E1622A2967E9005954FA /* HomeView.swift */; };
+		25F1E1672A2968E3005954FA /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E1662A2968E3005954FA /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		25F1E1512A2960C6005954FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25F1E1542A2960C6005954FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25F1E15C2A296684005954FA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		25F1E1622A2967E9005954FA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		25F1E1662A2968E3005954FA /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 			children = (
 				25F1E14D2A2960C5005954FA /* CryptoAppApp.swift */,
 				25F1E14F2A2960C5005954FA /* ContentView.swift */,
+				25F1E15E2A2967B6005954FA /* Core */,
 				25F1E15B2A29667A005954FA /* Extensions */,
 				25F1E1512A2960C6005954FA /* Assets.xcassets */,
 				25F1E1532A2960C6005954FA /* Preview Content */,
@@ -76,6 +81,55 @@
 				25F1E15C2A296684005954FA /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		25F1E15E2A2967B6005954FA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				25F1E1642A2968BA005954FA /* Components */,
+				25F1E15F2A2967C0005954FA /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		25F1E15F2A2967C0005954FA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				25F1E1612A2967D4005954FA /* ViewModels */,
+				25F1E1602A2967CE005954FA /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		25F1E1602A2967CE005954FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25F1E1622A2967E9005954FA /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25F1E1612A2967D4005954FA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		25F1E1642A2968BA005954FA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				25F1E1652A2968D1005954FA /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		25F1E1652A2968D1005954FA /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				25F1E1662A2968E3005954FA /* CircleButtonView.swift */,
+			);
+			path = CircleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				25F1E1502A2960C5005954FA /* ContentView.swift in Sources */,
+				25F1E1632A2967E9005954FA /* HomeView.swift in Sources */,
 				25F1E14E2A2960C5005954FA /* CryptoAppApp.swift in Sources */,
+				25F1E1672A2968E3005954FA /* CircleButtonView.swift in Sources */,
 				25F1E15D2A296684005954FA /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
