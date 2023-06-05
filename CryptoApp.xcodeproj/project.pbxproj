@@ -21,6 +21,7 @@
 		25F1E1732A2B2E7A005954FA /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E1722A2B2E7A005954FA /* Double.swift */; };
 		25F1E1752A2C38FB005954FA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E1742A2C38FB005954FA /* HomeViewModel.swift */; };
 		25F1E1782A2C78E1005954FA /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E1772A2C78E1005954FA /* CoinDataService.swift */; };
+		25F1E17B2A2C9A5D005954FA /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E17A2A2C9A5D005954FA /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		25F1E1722A2B2E7A005954FA /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		25F1E1742A2C38FB005954FA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		25F1E1772A2C78E1005954FA /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		25F1E17A2A2C9A5D005954FA /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				25F1E15E2A2967B6005954FA /* Core */,
 				25F1E15B2A29667A005954FA /* Extensions */,
 				25F1E1762A2C78B9005954FA /* Services */,
+				25F1E1792A2C7F47005954FA /* Utilities */,
 				25F1E16B2A29F605005954FA /* Models */,
 				25F1E1512A2960C6005954FA /* Assets.xcassets */,
 				25F1E1532A2960C6005954FA /* Preview Content */,
@@ -169,6 +172,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		25F1E1792A2C7F47005954FA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				25F1E17A2A2C9A5D005954FA /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +258,7 @@
 				25F1E14E2A2960C5005954FA /* CryptoAppApp.swift in Sources */,
 				25F1E1672A2968E3005954FA /* CircleButtonView.swift in Sources */,
 				25F1E15D2A296684005954FA /* Color.swift in Sources */,
+				25F1E17B2A2C9A5D005954FA /* NetworkingManager.swift in Sources */,
 				25F1E1692A29F1A2005954FA /* CircleButtonAnimationView.swift in Sources */,
 				25F1E1712A2B2B59005954FA /* PreviewProvider.swift in Sources */,
 				25F1E1732A2B2E7A005954FA /* Double.swift in Sources */,
