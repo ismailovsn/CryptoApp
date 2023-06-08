@@ -35,6 +35,11 @@ struct PortfolioView: View {
                     saveButton
                 }
             }
+            .onChange(of: vm.searchText) { newValue in
+                if newValue == "" {
+                    removeSelectedCoin()
+                }
+            }
         }
     }
 }
