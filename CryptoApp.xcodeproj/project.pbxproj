@@ -36,6 +36,7 @@
 		25F1E1962A3126C0005954FA /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E1952A3126C0005954FA /* PortfolioView.swift */; };
 		25F1E1982A312D0C005954FA /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E1972A312D0C005954FA /* CoinLogoView.swift */; };
 		25F1E19D2A31C5CB005954FA /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E19B2A31C5CB005954FA /* PortfolioContainer.xcdatamodeld */; };
+		25F1E19F2A31C65B005954FA /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E19E2A31C65B005954FA /* PortfolioDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		25F1E1952A3126C0005954FA /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		25F1E1972A312D0C005954FA /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		25F1E19C2A31C5CB005954FA /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
+		25F1E19E2A31C65B005954FA /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 				25F1E1772A2C78E1005954FA /* CoinDataService.swift */,
 				25F1E17F2A2DD5E6005954FA /* CoinImageService.swift */,
 				25F1E1932A306AFE005954FA /* MarketDataService.swift */,
+				25F1E19E2A31C65B005954FA /* PortfolioDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				25F1E15D2A296684005954FA /* Color.swift in Sources */,
 				25F1E1862A2EC74E005954FA /* SearchBarView.swift in Sources */,
 				25F1E17B2A2C9A5D005954FA /* NetworkingManager.swift in Sources */,
+				25F1E19F2A31C65B005954FA /* PortfolioDataService.swift in Sources */,
 				25F1E1902A2F1620005954FA /* HomeStatsView.swift in Sources */,
 				25F1E1942A306AFE005954FA /* MarketDataService.swift in Sources */,
 				25F1E1692A29F1A2005954FA /* CircleButtonAnimationView.swift in Sources */,
