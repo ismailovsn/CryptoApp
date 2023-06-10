@@ -37,6 +37,7 @@
 		25F1E1982A312D0C005954FA /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E1972A312D0C005954FA /* CoinLogoView.swift */; };
 		25F1E19D2A31C5CB005954FA /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E19B2A31C5CB005954FA /* PortfolioContainer.xcdatamodeld */; };
 		25F1E19F2A31C65B005954FA /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E19E2A31C65B005954FA /* PortfolioDataService.swift */; };
+		25F1E1A12A343512005954FA /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E1A02A343512005954FA /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		25F1E1972A312D0C005954FA /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		25F1E19C2A31C5CB005954FA /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		25F1E19E2A31C65B005954FA /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
+		25F1E1A02A343512005954FA /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			children = (
 				25F1E17A2A2C9A5D005954FA /* NetworkingManager.swift */,
 				25F1E1832A2EB66D005954FA /* LocalFileManager.swift */,
+				25F1E1A02A343512005954FA /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				25F1E1692A29F1A2005954FA /* CircleButtonAnimationView.swift in Sources */,
 				25F1E1822A2DD705005954FA /* CoinImageViewModel.swift in Sources */,
 				25F1E1712A2B2B59005954FA /* PreviewProvider.swift in Sources */,
+				25F1E1A12A343512005954FA /* HapticManager.swift in Sources */,
 				25F1E1962A3126C0005954FA /* PortfolioView.swift in Sources */,
 				25F1E1732A2B2E7A005954FA /* Double.swift in Sources */,
 				25F1E1802A2DD5E6005954FA /* CoinImageService.swift in Sources */,
