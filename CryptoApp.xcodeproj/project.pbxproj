@@ -38,6 +38,7 @@
 		25F1E19D2A31C5CB005954FA /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E19B2A31C5CB005954FA /* PortfolioContainer.xcdatamodeld */; };
 		25F1E19F2A31C65B005954FA /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E19E2A31C65B005954FA /* PortfolioDataService.swift */; };
 		25F1E1A12A343512005954FA /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E1A02A343512005954FA /* HapticManager.swift */; };
+		25F1E1A62A35F21C005954FA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E1A52A35F21C005954FA /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		25F1E19C2A31C5CB005954FA /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		25F1E19E2A31C65B005954FA /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		25F1E1A02A343512005954FA /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		25F1E1A52A35F21C005954FA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				25F1E1642A2968BA005954FA /* Components */,
 				25F1E15F2A2967C0005954FA /* Home */,
+				25F1E1A22A35F1B6005954FA /* Detail */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -236,6 +239,30 @@
 			path = CoinImage;
 			sourceTree = "<group>";
 		};
+		25F1E1A22A35F1B6005954FA /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				25F1E1A32A35F1EF005954FA /* ViewModels */,
+				25F1E1A42A35F1FD005954FA /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		25F1E1A32A35F1EF005954FA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		25F1E1A42A35F1FD005954FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25F1E1A52A35F21C005954FA /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,6 +346,7 @@
 				25F1E18E2A2F13B3005954FA /* StatisticView.swift in Sources */,
 				25F1E17E2A2DD4F5005954FA /* CoinImageView.swift in Sources */,
 				25F1E14E2A2960C5005954FA /* CryptoAppApp.swift in Sources */,
+				25F1E1A62A35F21C005954FA /* DetailView.swift in Sources */,
 				25F1E1882A2ECB11005954FA /* UIApplication.swift in Sources */,
 				25F1E1672A2968E3005954FA /* CircleButtonView.swift in Sources */,
 				25F1E15D2A296684005954FA /* Color.swift in Sources */,
@@ -471,6 +499,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,6 +529,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
