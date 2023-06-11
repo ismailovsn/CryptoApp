@@ -85,7 +85,6 @@ extension HomeView {
             Text(showPortfolio ? "Portfolio" : "Live Prices")
                 .animation(.none)
                 .font(.headline)
-                .fontWeight(.heavy)
                 .foregroundColor(Color.theme.accent)
             Spacer()
             CircleButtonView(iconName: "chevron.right")
