@@ -37,7 +37,7 @@ class DetailViewModel: ObservableObject {
     private func mapDataToStatistics(coinDetailModel: CoinDetailModel?, coinModel: CoinModel) -> (overview: [StatisticModel], additional: [StatisticModel]) {
         
         let overviewArray = createOverviewArray(coinModel: coinModel)
-        let additionalArray = createOverviewArray(coinModel: coinModel)
+        let additionalArray = createAdditionalArray(coinDetailModel: coinDetailModel, coinModel: coinModel)
         return (overviewArray, additionalArray)
     }
     
@@ -63,7 +63,7 @@ class DetailViewModel: ObservableObject {
         return overviewArray
     }
     
-    private func createAddditionalArray(coinDetailModel: CoinDetailModel?, coinModel: CoinModel) -> [StatisticModel] {
+    private func createAdditionalArray(coinDetailModel: CoinDetailModel?, coinModel: CoinModel) -> [StatisticModel] {
         //additional
         let high = coinModel.high24H?.asCurrencyWith6Decimals() ?? "n/a"
         let highStat = StatisticModel(title: "24h High", value: high)
@@ -86,9 +86,9 @@ class DetailViewModel: ObservableObject {
         let hashing = coinDetailModel?.hashingAlgorithm ?? "n/a"
         let hashingStat = StatisticModel(title: "Hashing Algorithm", value: hashing)
         
-        let addigionalArray: [StatisticModel] = [
+        let additionalArray: [StatisticModel] = [
             highStat, lowStat, priceChangeStat, marketCapChangeStat, blockStat, hashingStat
         ]
-        return addigionalArray
+        return additionalArray
     }
 }
