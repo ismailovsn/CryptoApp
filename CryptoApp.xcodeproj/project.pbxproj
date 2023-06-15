@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		253F2A752A38495300093E7C /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F2A742A38495300093E7C /* ChartView.swift */; };
 		253F2A772A396A3900093E7C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F2A762A396A3900093E7C /* Date.swift */; };
+		253F2A792A3AAA6A00093E7C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F2A782A3AAA6A00093E7C /* String.swift */; };
 		25F1E14E2A2960C5005954FA /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E14D2A2960C5005954FA /* CryptoAppApp.swift */; };
 		25F1E1502A2960C5005954FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E14F2A2960C5005954FA /* ContentView.swift */; };
 		25F1E1522A2960C6005954FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F1E1512A2960C6005954FA /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		253F2A742A38495300093E7C /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		253F2A762A396A3900093E7C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		253F2A782A3AAA6A00093E7C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		25F1E14A2A2960C5005954FA /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F1E14D2A2960C5005954FA /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		25F1E14F2A2960C5005954FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				25F1E1722A2B2E7A005954FA /* Double.swift */,
 				25F1E1872A2ECB11005954FA /* UIApplication.swift */,
 				253F2A762A396A3900093E7C /* Date.swift */,
+				253F2A782A3AAA6A00093E7C /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				25F1E1712A2B2B59005954FA /* PreviewProvider.swift in Sources */,
 				253F2A752A38495300093E7C /* ChartView.swift in Sources */,
 				25F1E1A12A343512005954FA /* HapticManager.swift in Sources */,
+				253F2A792A3AAA6A00093E7C /* String.swift in Sources */,
 				25F1E1962A3126C0005954FA /* PortfolioView.swift in Sources */,
 				25F1E1AC2A368FF1005954FA /* CoinDetailDataService.swift in Sources */,
 				25F1E1732A2B2E7A005954FA /* Double.swift in Sources */,
