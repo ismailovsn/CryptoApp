@@ -24,10 +24,11 @@ struct CryptoAppApp: App {
                     HomeView()
                         .navigationBarHidden(true)
                 }
+                .navigationViewStyle(StackNavigationViewStyle())
                 .environmentObject(vm)
                 
                 ZStack {
-                    if showLaunchView {
+                    if showLaunchView  {
                         LaunchView(showLaunchView: $showLaunchView)
                             .transition(.move(edge: .leading))
                     }

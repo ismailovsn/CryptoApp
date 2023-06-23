@@ -14,7 +14,6 @@
 		253F2A812A3D480E00093E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253F2A802A3D480E00093E7C /* LaunchScreen.storyboard */; };
 		253F2A832A3D498500093E7C /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F2A822A3D498500093E7C /* LaunchView.swift */; };
 		25F1E14E2A2960C5005954FA /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E14D2A2960C5005954FA /* CryptoAppApp.swift */; };
-		25F1E1502A2960C5005954FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E14F2A2960C5005954FA /* ContentView.swift */; };
 		25F1E1522A2960C6005954FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F1E1512A2960C6005954FA /* Assets.xcassets */; };
 		25F1E1552A2960C6005954FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F1E1542A2960C6005954FA /* Preview Assets.xcassets */; };
 		25F1E15D2A296684005954FA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1E15C2A296684005954FA /* Color.swift */; };
@@ -59,7 +58,6 @@
 		253F2A822A3D498500093E7C /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		25F1E14A2A2960C5005954FA /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F1E14D2A2960C5005954FA /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
-		25F1E14F2A2960C5005954FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25F1E1512A2960C6005954FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25F1E1542A2960C6005954FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25F1E15C2A296684005954FA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				25F1E14D2A2960C5005954FA /* CryptoAppApp.swift */,
-				25F1E14F2A2960C5005954FA /* ContentView.swift */,
 				25F1E15E2A2967B6005954FA /* Core */,
 				25F1E15B2A29667A005954FA /* Extensions */,
 				25F1E1762A2C78B9005954FA /* Services */,
@@ -401,7 +398,6 @@
 				25F1E19D2A31C5CB005954FA /* PortfolioContainer.xcdatamodeld in Sources */,
 				253F2A7D2A3CA54E00093E7C /* SettingsView.swift in Sources */,
 				253F2A832A3D498500093E7C /* LaunchView.swift in Sources */,
-				25F1E1502A2960C5005954FA /* ContentView.swift in Sources */,
 				25F1E1842A2EB66D005954FA /* LocalFileManager.swift in Sources */,
 				25F1E1A82A367FA0005954FA /* CoinDetailModel.swift in Sources */,
 				25F1E1922A306487005954FA /* MarketDataModel.swift in Sources */,
@@ -566,8 +562,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -597,8 +592,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
