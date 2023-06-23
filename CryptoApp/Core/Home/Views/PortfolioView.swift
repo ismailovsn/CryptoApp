@@ -96,7 +96,7 @@ extension PortfolioView {
         return 0
     }
     
-    var xMarkButton: some View {
+    private var xMarkButton: some View {
         Button {
             dismiss()
         } label: {
@@ -105,7 +105,7 @@ extension PortfolioView {
         }
     }
     
-    var portfolioInputSection: some View {
+    private var portfolioInputSection: some View {
         VStack(spacing: 20) {
             HStack {
                 Text("Current price of \(selectedCoin?.symbol.uppercased() ?? ""):")
